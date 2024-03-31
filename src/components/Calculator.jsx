@@ -78,7 +78,7 @@ function Calculator() {
       <div className="other">
         <button onClick={() => dispatch({ type: ADD })}>ADD</button>
         <button onClick={() => dispatch({ type: CLEAR })}>CLEAR</button>
-        <button>{state.result}</button>
+        <button id="clear">{state.result}</button>
       </div>
     </div>
   );
