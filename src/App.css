@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.numbers,
+.other {
+  margin-bottom: 2rem;
+}
+
+.numbers button,
+.other button {
+  padding: 1rem;
+  margin-right: 1rem;
+}
